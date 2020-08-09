@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 15px;
+}
+
+html {
+  background-color: #343a40 !important;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+header {
+  display: flex !important;
+  justify-content: center;
+  padding-top: 1rem;
+  color: white;
+}
+
+input,
+button {
+  margin: 0 auto;
+}
+
+input {
+  margin-top: 2rem;
+  width: 400px;
+  height: 2rem;
+  font-size: 2rem;
+}
+
+button {
+  width: 400px;
+  margin-top: 1rem;
+}
+
+button:focus {
+  display: none;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+  color: white;
+  text-align: center;
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  gap: 1em;
+  margin-top: 2rem;
+}
+.drink-thumbnail {
+  width: 300px;
+  height: auto;
+}
